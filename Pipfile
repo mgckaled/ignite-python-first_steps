@@ -3,11 +3,13 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
+[scripts]
+lintpy = "pylint ./**/*.py"
+
 [packages]
+pylint = "*"
 
 [dev-packages]
-pylint = "*"
-nbqa = "*"
 
 [requires]
 python_version = "3.11"
