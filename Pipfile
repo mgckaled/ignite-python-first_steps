@@ -4,10 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [scripts]
-lintpy = "pylint ./**/*.py"
+lintpy = "pylint --rcfile=.pylintrc --ignore=directory_with_missing_init_py ."
 
 [packages]
 pylint = "*"
+requests = "*"
 
 [dev-packages]
 
