@@ -4,7 +4,7 @@
 # Ignite Trilha Python - Primeiros Passos
 
 <div align="center">
-   <img alt="logo trilha" src=".github/assets/trilha-rs.png" width="40%"/>
+   <img alt="logo trilha" src=".github/assets/trilha-rs.png" width="35%"/>
 </div>
 
 <br>
@@ -62,7 +62,7 @@ Módulo imersivo em Programação Orientada a Objetos (POO) em Python. Aprenda f
 ### Bibliotecas Instaladas (Packages)
 
 - [`pylint`](https://pylint.pycqa.org/en/latest/index.html)
-- [`nbqa`](https://pylint.pycqa.org/en/latest/index.html)
+- [`requests`](https://requests.readthedocs.io/en/latest/)
 
 ## Como clonar o projeto?
 
@@ -83,7 +83,7 @@ Módulo imersivo em Programação Orientada a Objetos (POO) em Python. Aprenda f
 4. Instale as dependências e ative o ambiente virtual
 
     ```shell
-    $ pipenv install
+    $ pipenv install -r requirements.txt
     $ pipenv shell
     ```
 
