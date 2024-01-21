@@ -23,6 +23,8 @@
   - [Sobre o Projeto](#sobre-o-projeto)
     - [Módulo 1 - Introdução ao Python](#módulo-1---introdução-ao-python)
     - [Módulo 2 - Programação Orientada a Objetos](#módulo-2---programação-orientada-a-objetos)
+    - [Desafio](#desafio)
+      - [Regras da aplicação](#regras-da-aplicação)
   - [Tecnologias](#tecnologias)
     - [Linguagem de Programação](#linguagem-de-programação)
     - [Gerenciadores de Ambiente Virtual](#gerenciadores-de-ambiente-virtual)
@@ -47,6 +49,27 @@ Este módulo introdutório é um mergulho profundo nos fundamentos da programaç
 Módulo imersivo em Programação Orientada a Objetos (POO) em Python. Aprenda fundamentos como herança, polimorfismo, encapsulamento e decoradores. Cada aula aprofunda conceitos, proporcionando base sólida. Projeto prático: jogo de combate em turnos aplicando conhecimento adquirido. Ao final, domine POO em Python para aplicação eficaz em projetos futuros.
 
 > Acessar [**anotações**](./.github/docs/notes_m2.md) do módulo
+
+### Desafio
+
+Nesse desafio desenvolveremos uma agenda para salvar, editar, deletar e marcar um contato como favorito. O resultado da aplicação deve ser apresentado no terminal, assim como foi visto no módulo “Introdução ao Python”.
+
+Link com instruções: [desafio](https://efficient-sloth-d85.notion.site/Desafio-01-622bb29769034c9ba659f2dc33019055)
+
+#### Regras da aplicação
+
+- A aplicação deve iniciar mostrando uma lista de opções do que é possível fazer com o app e permitir que o usuário digite uma escolha para iniciar a aplicação.
+- Deve ser possível adicionar um contato
+  - O contato pode ter os dados:
+  - Nome
+  - Telefone
+  - Email
+  - Favorito (está opção é para poder marcar um contato como favorito)
+- Deve ser possível visualizar a lista de contatos cadastrados
+- Deve ser possível editar um contato
+- Deve ser possível marcar/desmarcar um contato como favorito
+- Deve ser possível ver uma lista de contatos favoritos
+- Deve ser possível apagar um contato
 
 ## Tecnologias
 
